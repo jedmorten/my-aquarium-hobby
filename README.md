@@ -1,2 +1,3 @@
 # my-aquarium-hobby
-PWP
+
+This is a website that will detail my aquarium/fish keeping hobby.
