@@ -1,51 +1,51 @@
 body {
-    background-color: navy;
+    background-color:navy;
 }
 
 h1{
-    font-size: 8em;
+    font-size:8em;
 }
 
 h2{
-    font-size: 6em;
+    font-size:6em;
 }
 
 h3{
-    font-size: 4em;
+    font-size:4em;
 }
 p{
-    font-size: 2em;
+    font-size:2em;
 }
 
 .pag h1{
-    color: seashell;
+    color:seashell;
 }
 
 .pag p{
-    color: seashell;
+    color:seashell;
 }
 
 .persona{
-    color: seashell;
+    color:seashell;
 }
 
 .persona h1{
-    font-size: 8em;
+    font-size:8em;
 }
 .persona h2{
-    font-size: 6em;
+    font-size:6em;
 }
 .persona h3{
-    font-size: 4em;
+    font-size:4em;
 }
 
 .persona p{
-    font-size: 2em;
+    font-size:2em;
 }
 .persona ul{
-    font-size: 2em;
+    font-size:2em;
 }
 
-image{
-    width: 20em;
+img{
+    width:25%;
 }
