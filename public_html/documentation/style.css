@@ -1,51 +1,5 @@
-body {
-    background-color:navy;
+.navbar{
+    position: fixed;
+    width: 100%;
 }
 
-h1{
-    font-size:8em;
-}
-
-h2{
-    font-size:6em;
-}
-
-h3{
-    font-size:4em;
-}
-p{
-    font-size:2em;
-}
-
-.pag h1{
-    color:seashell;
-}
-
-.pag p{
-    color:seashell;
-}
-
-.persona{
-    color:seashell;
-}
-
-.persona h1{
-    font-size:8em;
-}
-.persona h2{
-    font-size:6em;
-}
-.persona h3{
-    font-size:4em;
-}
-
-.persona p{
-    font-size:2em;
-}
-.persona ul{
-    font-size:2em;
-}
-
-img{
-    width:25%;
-}
