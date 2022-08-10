@@ -1,11 +1,22 @@
 #myNav{
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
-img[src="freshwater-aquarium.webp"]{
-    margin-top: 3.5em;
+.navbar a{
+    color: white;
+    font-family: Bahnschrift;
+    font-weight: bold;
+
 }
+
+
+.home {
+    background-image: image('freshwater-aquarium.webp');
+}
+
+
 body{
     background-color: #152836
 }
@@ -124,3 +135,10 @@ h2{color:#fff;margin-bottom:40px;text-align:center;font-weight:100;}
 .home .demo-gallery {
     padding-bottom: 80px;
 }
+
+#journey p{
+    color: white;
+    text-align: center;
+}
+
+
