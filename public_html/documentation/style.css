@@ -10,6 +10,10 @@
 
 }
 
+.navbar button{
+    background-color: white;
+}
+
 
 
 
@@ -19,11 +23,17 @@
 }
 
 #fish h2{
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 #plants{
     background-image: linear-gradient(black, #113B08);
+    padding-top: 2em;
+
+}
+
+#plants h2{
+    margin-bottom: 1em;
 }
 
 
@@ -153,11 +163,35 @@ h2{color:#fff;margin-bottom:40px;text-align:center;font-weight:100;}
     text-align: center;
     background-color: black;
 }
-
-#aboutContact{
-    margin-top: 5em;
-    background-color: blue;
-    color: white;
+#equipment{
+    background-color: slategrey;
 }
 
+#aboutContact{
+    background-color: #1A0E2D;
+    color: white;
 
+}
+
+#aboutMe{
+    border-style: solid;
+}
+
+#contactMe{
+color: white;
+    border-style: solid;
+
+
+}
+
+#submitButton{
+    background-color: slategrey;
+    border-color: black;
+    margin-bottom: 2em;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    margin-bottom: 0;
+}

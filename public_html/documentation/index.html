@@ -9,23 +9,23 @@
     <link href="https://cdn.jsdelivr.net/lightgallery/1.3.9/css/lightgallery.min.css" rel="stylesheet">
 
 </head>
-<body class="home">
+<body>
 
 <!--Navbar-->
 <nav id="myNav" class="navbar navbar-expand-lg bg-">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="navBarButton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Welcome!</a>
-                <a class="nav-link" href="#">Fish</a>
-                <a class="nav-link" href="#">Plants</a>
-                <a class="nav-link" href="#">Journey</a>
-                <a class="nav-link" href="#">Equipment</a>
-                <a class="nav-link" href="#">About/Contact</a>
+                <a class="nav-link" href="#welcome">Welcome!</a>
+                <a class="nav-link" href="#fish">Fish</a>
+                <a class="nav-link" href="#plants">Plants</a>
+                <a class="nav-link" href="#journey">Journey</a>
+                <a class="nav-link" href="#equipment">Equipment</a>
+                <a class="nav-link" href="#aboutContact">About/Contact</a>
             </div>
         </div>
     </div>
@@ -266,7 +266,7 @@
 </div>
 
 <!--Journey Section-->
-<div id="journey" class="container-fluid width: 100%">
+<div id="journey" class="container-fluid pt-3">
     <h2 class="mb-5 text-center">The Journey</h2>
     <p>I'm the Devil, what should I do when I fail? Give myself an ice cream? Who cares, Morty? Global acts of terrorism happen every day. Uh, here's something that's never happened before—I'm a pickle! I'm Pickle Ri-i-i-ick! Close. It's gonna make your kidneys shut down. Earth's going tah tah. You might wanna do that thing where you find a new universe where you can suck yourself off.</p>
     <p>This isn't Game of Thrones, Morty. Oh no. I'm late to class, bitch. You're not gonna believe this, because it usually never happens, but I made a mistake. Mind your own goddamn business, Gene! I'm having a conversation with my mother here! Kissing Rick's ass isn't gonna make him stay, Mom, but it will help you lose everyone else.</p>
@@ -284,7 +284,7 @@
 </div>
 
 <!--Equipment Section-->
-<div id="equipment" class="container-fluid">
+<div id="equipment" class="container-fluid pb-4">
 <h2>Equipment</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
@@ -363,26 +363,39 @@
 </div>
 
 <!--About Me Section-->
-<div id="aboutContact" class="container text center">
+<div id="aboutContact" class="container-fluid text center">
     <div class="row">
-        <div class="col">
-    <h2>About Me</h2>
-    <p>I'm your worst nightmare, bitch! Well, she's my daughter, Summer. I outrank you. Or, family means nothing, in which case, don't play that card. Rick, is this a Saw thing? Are you seriously Sawing the Vindicators? Ooohhh can do.</p>
+        <div id="aboutMe" class="col-lg">
+            <h2>About Me</h2>
+            <p>I'm your worst nightmare, bitch! Well, she's my daughter, Summer. I outrank you. Or, family means nothing, in which case, don't play that card. Rick, is this a Saw thing? Are you seriously Sawing the Vindicators? Ooohhh can do.</p>
 
             <p>Jesus Christ! Did the boomy-booms blow up all your wordy-word books? We're gonna nine eleven this bitch unless Morty gets better math grades! Thanks Noob Noob, this guy gets it. Oh, we're welllll past that, Jerry!</p>
         </div>
-        <div class="col">
+        <div id="contactMe" class="col-lg">
             <h2>Contact Me</h2>
-        </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Message</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
         </div>
     </div>
+</div>
 
 <!--Footer Section-->
 <footer>
     <h2>Thanks for stopping by!</h2>
 </footer>
 
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="script.js"></script>
 <script>
