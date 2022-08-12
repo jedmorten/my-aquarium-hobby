@@ -1,8 +1,5 @@
 
 
-
-
-
 #myNav{
     position: fixed;
     z-index: 1;
@@ -21,8 +18,16 @@
 
 #welcome{
     background-image: url("betta-1.jpg");
+    background-size: 1322px 480px;
+    background-repeat: no-repeat;
+   font-size: 10em;
+color: white;
+    text-align: center;
 }
 
+#welcome p{
+    margin-bottom: 0;
+}
 
 #fish{
     background-image: linear-gradient(#152238, black);
