@@ -417,7 +417,7 @@
         </div>
         <div id="contactMe" class="col-lg">
             <h2>Contact Me</h2>
-            <form action="./apis/" id="contact" method="post" novalidate>
+            <form action="http://localhost:4200/apis" id="contact" method="post" novalidate>
                 <div class="form-floating mb-3">
                     <input type="email" class="form-control" id="name" name="name" placeholder="name@example.com">
                     <label for="name">Name</label>
@@ -438,6 +438,7 @@
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
+                <div class="g-recaptcha" data-sitekey="6Lcn3XohAAAAAEabICtYhNziHvAMGC_7FPzn8ihz"></div>
                 <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
             </form>
             <div id="output-area"></div>
@@ -455,6 +456,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js" integrity="sha512-YUkaLm+KJ5lQXDBdqBqk7EVhJAdxRnVdT2vtCzwPHSweCzyMgYV/tgGF4/dCyqtCC2eCphz0lRQgatGVdfR0ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js" integrity="sha512-6S5LYNn3ZJCIm0f9L6BCerqFlQ4f5MwNKq+EthDXabtaJvg3TuFLhpno9pcm+5Ynm6jdA9xfpQoMz2fcjVMk9g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <script src="script.js"></script>
 
 </body>
