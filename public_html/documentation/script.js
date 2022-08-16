@@ -21,7 +21,7 @@ $(document).ready(function (){
       },
       email: {
         email: true,
-        required:true
+        required: true
       },
       message: {
         required: true,
