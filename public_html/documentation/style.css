@@ -172,6 +172,12 @@ h2{color:#fff;margin-bottom:40px;text-align:center;font-weight:100;}
 #equipment{
     background-color: slategrey;
 }
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
 
 #aboutContact{
     background-color: #1A0E2D;
