@@ -17,8 +17,15 @@
 }
 
 /*Welcome section*/
-#welcome{
-
+#header{
+    margin-bottom: 0px;
+}
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3em;
+    padding-top: 1em;
 }
 
 #fish{
