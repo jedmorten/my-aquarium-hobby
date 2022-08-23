@@ -23,6 +23,10 @@
     text-align: center;
     font-size: 6vw;
 }
+
+#by{
+    font-size: 2vw;
+}
 h1 {
     background-color: black;
     color: white;
@@ -181,6 +185,11 @@ h2{color:#fff;margin-bottom:40px;text-align:center;font-weight:100;}
 }
 #equipment{
     background-color: slategrey;
+    padding-top: 3em;
+}
+
+#equipment h2{
+    padding-bottom: 1em;
 }
 .card-img-top {
     width: 100%;
@@ -199,6 +208,7 @@ h2{color:#fff;margin-bottom:40px;text-align:center;font-weight:100;}
     color: white;
     border-style: solid;
     padding: 1em;
+    font-size: 1.5vw;
 }
 
 #contactMe{
